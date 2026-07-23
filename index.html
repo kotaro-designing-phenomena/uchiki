@@ -9,7 +9,6 @@
     />
     <meta name="theme-color" content="#f3f0e8" />
     <title>Kotaro Uchiki — Designing Phenomena</title>
-    <link rel="preload" href="assets/images/hero-sea.jpg" as="image" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
@@ -36,19 +35,23 @@
     </header>
 
     <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-photo" data-parallax="0.08">
-          <img src="assets/images/hero-sea.jpg" alt="海辺で笑う内木小太郎" />
-        </div>
-        <div class="hero-shade" aria-hidden="true"></div>
-        <p class="hero-kicker">DESIGNING PHENOMENA</p>
-        <h1 id="hero-title">
-          <span>人が動き出す、</span>
-          <span>小さなきっかけ。</span>
-        </h1>
-        <div class="hero-foot">
-          <p>SMALL TRIGGERS</p>
-          <a href="#statement">SCROLL TO DISCOVER <span aria-hidden="true">↓</span></a>
+      <section class="hero" id="top" aria-labelledby="hero-title" data-hero-section>
+        <div class="hero-stage" data-hero>
+          <div class="hero-grid" aria-hidden="true"></div>
+          <p class="hero-kicker">DESIGNING PHENOMENA</p>
+          <h1 id="hero-title" aria-label="動き出す、デザイン。">
+            <span class="hero-line hero-line-first">動き出す、</span>
+            <span class="hero-line hero-line-second">デザイン<span class="hero-period">。</span></span>
+          </h1>
+          <p class="hero-intro">
+            SPACE / OBJECT / EXPERIENCE<br />
+            KOTARO UCHIKI
+          </p>
+          <div class="hero-trigger" aria-hidden="true"><span></span></div>
+          <div class="hero-foot">
+            <p>SMALL TRIGGERS</p>
+            <a href="#statement">SCROLL TO DISCOVER <span aria-hidden="true">↓</span></a>
+          </div>
         </div>
       </section>
 
